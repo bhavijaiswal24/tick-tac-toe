@@ -3,7 +3,7 @@ package player;
 public class Player {
     private String name;
     private char symbol;
-    private String adderss;
+    private String address;
     private String contactNumber;
     private String emailId;
     private int age;
@@ -11,7 +11,7 @@ public class Player {
     public void setPlayerDetail(String name,char symbol,String address,String contactNumber,String emailId,int age){
         this.name=name;
         this.symbol=symbol;
-        this.adderss=adderss;
+        this.address=address;
         this.contactNumber=contactNumber;
         this.emailId=emailId;
         this.age=age;
@@ -21,7 +21,7 @@ public class Player {
         this.name=name;
         this.age=age;
     }
-    public void setPlayerNameSymbolEmailAge(String name,char symbol,String email,int age){
+    public void setPlayerNameSymbolEmailAge(String name,char symbol,String emailId,int age){
         this.name=name;
         this.symbol=symbol;
         this.emailId=emailId;
@@ -51,6 +51,6 @@ public class Player {
         System.out.println("Player EmailId: "+this.emailId);
         System.out.println("Player Age: "+this.age);
         System.out.println("Player Contact: "+this.contactNumber);
-        System.out.println("Player Adderss: "+this.adderss);
+        System.out.println("Player Adderss: "+this.address);
     }
 }
